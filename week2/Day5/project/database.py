@@ -17,7 +17,7 @@ def create_table():
                 email VARCHAR(255) UNIQUE NOT NULL 
             )
     """)
-
+pip install fastapi uvicorn sqlalchemy asyncpg psycopg2-binary python-jose passlib
     # Commit the changes
     conn.commit()
 

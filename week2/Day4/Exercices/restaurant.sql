@@ -13,9 +13,12 @@ CREATE DATABASE restaurant
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 
-	CREATE TABLE Menu_Items (
+
+
+create table menu_Items (
     item_id SERIAL PRIMARY KEY,
-    nom_element VARCHAR(30) NOT NULL,
+    item_name VARCHAR(30) NOT NULL,
     item_price SMALLINT DEFAULT 0
 );
 
+select * from menu_Items
