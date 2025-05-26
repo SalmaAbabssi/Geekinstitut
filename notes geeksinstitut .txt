@@ -1,0 +1,23 @@
+key a son valeur 
+le type de range est range 
+une chaine de carractaure c est une array de caractaire 
+
+
+20/05/25
+
+language java script  compris par le Broser 
+let pour editer a l interieur de la variable 
+pop elle suprime la valeur qui je  l ai efface et elle retourne la meme la valeur 
+ switch case si il respect les condition il peut passer a l autre 
+
+22/05
+la taille de row of the table 
+
+respondmouseover listen type 
+
+ traquet tous les evenemt onchange = alert(this.value) contient element html et data de user 
+fonction alert(this){
+
+abortcontroller quant la port sort elle sert a desactivee la fonction 
+const constroleur = new abortconctrolleur 
+const timeid =settimeout {()=>controller.abort(),1000}
