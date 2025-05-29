@@ -21,3 +21,6 @@ fonction alert(this){
 abortcontroller quant la port sort elle sert a desactivee la fonction 
 const constroleur = new abortconctrolleur 
 const timeid =settimeout {()=>controller.abort(),1000}
+26/05/25
+
+?.  observer wach visible ou non flat array with array 
