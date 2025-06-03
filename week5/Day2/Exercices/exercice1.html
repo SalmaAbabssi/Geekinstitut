@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ac, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const gifUrl = "https://api.giphy.com/v1/gifs/search?q=hilarious&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My";
+
+  fetch(gifUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log("GIF Data:", data);
+  })
+  .catch(error => {
+    console.error("Error fetching GIFs:", error);
+  });
+  </script>
+</body>
+</html>
