@@ -1,0 +1,23 @@
+{
+  "name": "user-auth-api",
+  "version": "1.0.0",
+  "description": "API de gestion des utilisateurs avec Express, Bcrypt et JSON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "auth",
+    "bcrypt",
+    "json",
+    "api"
+  ],
+  "author": "Salma Ababssi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "uuid": "^9.0.1"
+  }
+}
